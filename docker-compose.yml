@@ -1,14 +1,14 @@
 version: '3'
 services:
     sender:
-        build: ./images/java
+        build: .
         volumes:
             - ./publisher/target:/home/zmq
         command: ["java", "-jar", "/home/zmq/publisher.jar"]
 
 
     receiver:
-        build: ./images/java
+        build: .
         volumes:
             - ./subscriber/target:/home/zmq
         command: ["java", "-jar", "/home/zmq/subscriber.jar"]
