@@ -1,5 +1,5 @@
-.idea
+./.idea
 *.iml
-target
-publisher/target
-subscriber/target
+./target
+./publisher/target
+./subscriber/target
