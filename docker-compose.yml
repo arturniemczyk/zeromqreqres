@@ -1,0 +1,18 @@
+version: '3'
+services:
+    sender:
+        build: ./images/java
+        volumes:
+            - ./publisher/target:/home/zmq
+        command: ["java", "-jar", "/home/zmq/publisher.jar"]
+
+
+    receiver:
+        build: ./images/java
+        volumes:
+            - ./subscriber/target:/home/zmq
+        command: ["java", "-jar", "/home/zmq/subscriber.jar"]
+        ports:
+          - 5555:5555
+        links:
+          - sender
