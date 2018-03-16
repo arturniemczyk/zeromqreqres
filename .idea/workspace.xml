@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4ac324-8a68-4439-94c2-ca4f815791ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subscriber/target/classes/com/example/Subscriber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subscriber/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subscriber/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subscriber/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subscriber/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subscriber/target/subscriber-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subscriber/target/subscriber.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/publisher/target/classes/com/example/Publisher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/publisher/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/publisher/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/publisher/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/publisher/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/publisher/target/publisher-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/publisher/target/sender.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -129,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -253,7 +253,18 @@
             <path>
               <item name="zmq" type="b2602c69:ProjectViewProjectNode" />
               <item name="zmq" type="462c0819:PsiDirectoryNode" />
+              <item name="publisher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmq" type="462c0819:PsiDirectoryNode" />
               <item name="subscriber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zmq" type="462c0819:PsiDirectoryNode" />
+              <item name="subscriber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,12 +389,12 @@
       <updated>1520789485810</updated>
       <workItem from="1520789489553" duration="33790000" />
       <workItem from="1521096381539" duration="2637000" />
-      <workItem from="1521177988206" duration="6982000" />
+      <workItem from="1521177988206" duration="7044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43409000" />
+    <option name="totallyTimeSpent" value="43471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="749" y="32" width="1855" height="1056" extended-state="0" />
@@ -717,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
