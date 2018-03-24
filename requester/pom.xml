@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>publisher</artifactId>
+    <artifactId>requester</artifactId>
 
     <build>
         <plugins>
@@ -18,11 +18,11 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.Publisher</mainClass>
+                            <mainClass>com.example.Requester</mainClass>
                         </manifest>
                     </archive>
                     <appendAssemblyId>false</appendAssemblyId>
-                    <finalName>publisher</finalName>
+                    <finalName>requester</finalName>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>

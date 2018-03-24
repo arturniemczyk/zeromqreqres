@@ -1,18 +1,18 @@
 version: '3'
 services:
-    sender:
+    requester:
         build: .
         volumes:
-            - ./publisher/target:/home/zmq
-        command: ["java", "-jar", "/home/zmq/publisher.jar"]
+            - ./requester/target:/home/zmq
+        command: ["java", "-jar", "/home/zmq/requester.jar"]
 
 
-    receiver:
+    responder:
         build: .
         volumes:
-            - ./subscriber/target:/home/zmq
-        command: ["java", "-jar", "/home/zmq/subscriber.jar"]
+            - ./responder/target:/home/zmq
+        command: ["java", "-jar", "/home/zmq/responder.jar"]
         ports:
           - 5555:5555
         links:
-          - sender
+          - requester

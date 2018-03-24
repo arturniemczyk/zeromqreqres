@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>subscriber</artifactId>
+    <artifactId>responder</artifactId>
 
     <build>
         <plugins>
@@ -18,11 +18,11 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.Subscriber</mainClass>
+                            <mainClass>com.example.Responder</mainClass>
                         </manifest>
                     </archive>
                     <appendAssemblyId>false</appendAssemblyId>
-                    <finalName>subscriber</finalName>
+                    <finalName>responder</finalName>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
