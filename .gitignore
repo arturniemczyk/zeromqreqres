@@ -14,5 +14,5 @@
 
 *.iml
 ./target
-./publisher/target
-./subscriber/target
+./requester/target
+./responder/target
