@@ -39,11 +39,9 @@ public class Requester implements CommandLineRunner {
             System.out.println("Response " + new String(reply) + " received at " + LocalDateTime.now());
             System.out.println("----------------");
 
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
+            Thread.sleep(5000);
+
             requestNr++;
         }
 
